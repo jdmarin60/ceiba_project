@@ -16,7 +16,7 @@ public class Utilities {
 	
 	
 	
-	public void verificarCodigoTresVocales(String codigo, int maximoVocales, String errorMessage) {
+	public boolean verificarCodigoTresVocales(String codigo, int maximoVocales, String errorMessage) {
 		// TODO Auto-generated method stub
     	int contador = 0;
     	
@@ -28,5 +28,7 @@ public class Utilities {
 			    }
     		}
 		}
+    	
+    	return true;
 	}
 }
