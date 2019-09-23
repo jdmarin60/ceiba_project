@@ -48,7 +48,7 @@ public class VendedorTest {
 
 		// arrange
 		Producto producto = new ProductoTestDataBuilder().conNombre(COMPUTADOR_LENOVO).build();
-		repositorioProducto.agregar(producto);
+		//repositorioProducto.agregar(producto);
 		Vendedor vendedor = new Vendedor(repositorioProducto, repositorioGarantia);
 		GarantiaExtendida garantia = new GarantiaExtendidaTestDataBuilder().conNombreCliente("Pedro").build();
 
@@ -67,7 +67,7 @@ public class VendedorTest {
 		// arrange
 		Producto producto = new ProductoTestDataBuilder().conNombre(COMPUTADOR_LENOVO).build();
 		
-		repositorioProducto.agregar(producto);
+		//repositorioProducto.agregar(producto);
 		
 		Vendedor vendedor = new Vendedor(repositorioProducto, repositorioGarantia);
 		GarantiaExtendida garantia = new GarantiaExtendidaTestDataBuilder().conNombreCliente("Pedro").build();

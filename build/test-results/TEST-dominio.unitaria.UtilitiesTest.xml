@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dominio.unitaria.UtilitiesTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-23T04:01:56" hostname="DESKTOP-24O12V2" time="0.157">
+  <properties/>
+  <testcase name="codigoValido" classname="dominio.unitaria.UtilitiesTest" time="0.157"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
